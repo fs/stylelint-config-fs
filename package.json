@@ -1,0 +1,20 @@
+{
+  "name": "stylelint-config-fs",
+  "version": "0.1.0",
+  "description": "Flatstack's CSS Stylelint config",
+  "main": "index.js",
+  "author": "maratfakhreev <marat.fakhreev@flatstack.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "stylefmt": "^5.3.2",
+    "stylelint": "^7.10.1",
+    "stylelint-order": "^0.4.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-fs": "^0.2.2"
+  }
+}
