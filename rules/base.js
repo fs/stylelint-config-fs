@@ -3,7 +3,7 @@ const propertiesOrder = require('./order/properties');
 
 const config = {
   'rules': {
-    'at-rule-no-unknown': [true, { ignoreAtRules: ['define-mixin', 'mixin'] }],
+    'at-rule-no-unknown': [true, { ignoreAtRules: ['define-mixin', 'extend', 'mixin'] }],
     'block-no-empty': true,
     'color-hex-case': 'lower',
     'color-no-invalid-hex': true,
