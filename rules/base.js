@@ -56,7 +56,7 @@ const config = {
 };
 
 // Dirty solution which allows to use stylefmt with stylelint-order plugin
-// Refert to https://github.com/hudochenkov/postcss-sorting/issues/47
+// Refer to https://github.com/hudochenkov/postcss-sorting/issues/47
 if (process.argv.find((value, key) => value.includes('stylefmt'))) {
   delete config.rules['order/order'];
 }
