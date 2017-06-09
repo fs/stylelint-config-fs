@@ -1,6 +1,8 @@
 # Changelog
 
 ## Unreleased
+
+## 0.3.0 - 2017-06-09
 - Add `@extend` to order/order rule
 
 ## 0.2.0 - 2017-06-09
