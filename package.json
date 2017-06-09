@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-fs",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Flatstack's CSS Stylelint config",
   "main": "index.js",
   "author": "maratfakhreev <marat.fakhreev@flatstack.com>",
