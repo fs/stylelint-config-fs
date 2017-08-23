@@ -1,6 +1,8 @@
 # Changelog
 
 ## Unreleased
+
+## 0.4.0 - 2017-08-23
 - Upgrade dependencies
 - Remove deprecated rules
 - Remove stylefmt
