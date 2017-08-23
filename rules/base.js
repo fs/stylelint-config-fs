@@ -1,7 +1,7 @@
 const order = require('./order/order');
 const propertiesOrder = require('./order/properties');
 
-const config = {
+module.exports = {
   'rules': {
     'at-rule-no-unknown': [true, { ignoreAtRules: ['define-mixin', 'extend', 'mixin'] }],
     'block-no-empty': true,
@@ -39,7 +39,6 @@ const config = {
     'rule-empty-line-before': ['always-multi-line', { except: ['first-nested'] }],
     'selector-descendant-combinator-no-non-space': true,
     'selector-list-comma-newline-after': 'always',
-    'selector-no-id': true,
     'selector-no-qualifying-type': true,
     'selector-pseudo-class-no-unknown': true,
     'selector-pseudo-element-colon-notation': 'double',
@@ -54,11 +53,3 @@ const config = {
     'value-no-vendor-prefix': true
   }
 };
-
-// Dirty solution which allows to use stylefmt with stylelint-order plugin
-// Refer to https://github.com/hudochenkov/postcss-sorting/issues/47
-if (process.argv.find((value, key) => value.includes('stylefmt'))) {
-  delete config.rules['order/order'];
-}
-
-module.exports = config;

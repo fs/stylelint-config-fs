@@ -1,6 +1,9 @@
 # Changelog
 
 ## Unreleased
+- Upgrade dependencies
+- Remove deprecated rules
+- Remove stylefmt
 
 ## 0.3.0 - 2017-06-09
 - Add `@extend` to order/order rule

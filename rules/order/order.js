@@ -4,7 +4,7 @@ module.exports = [
   'at-variables',
   {
     type: 'at-rule',
-    name: 'extend',
+    name: 'extend'
   },
   'declarations',
   'rules',

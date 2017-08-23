@@ -9,12 +9,11 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "stylefmt": "^6.0.0",
-    "stylelint": "^7.10.1",
-    "stylelint-order": "^0.4.4"
+    "stylelint": "^8.0.0",
+    "stylelint-order": "^0.6.0"
   },
   "devDependencies": {
-    "eslint": "^3.19.0",
-    "eslint-config-fs": "^0.2.5"
+    "eslint": "^4.5.0",
+    "eslint-config-fs": "^0.2.11"
   }
 }
