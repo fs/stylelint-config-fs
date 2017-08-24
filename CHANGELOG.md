@@ -1,6 +1,8 @@
 # Changelog
 
 ## Unreleased
+
+## 0.5.0 - 2017-08-24
 - Return stylefmt package as replacement for --fix option
 
 ## 0.4.0 - 2017-08-23
