@@ -9,6 +9,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "stylefmt": "^6.0.0",
     "stylelint": "^8.0.0",
     "stylelint-order": "^0.6.0"
   },
